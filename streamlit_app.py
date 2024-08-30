@@ -5,7 +5,7 @@ st.title('Machine Learning App 🥽')
 
 st.info("Testing a Machine Learning App build on Streamlit")
 
-st.dropdown('Testing Testing')
+st.list('Testing Testing')
 
 with st.expander('Data'):
   st.write('**Raw data**')
