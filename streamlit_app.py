@@ -5,5 +5,7 @@ st.title('Machine Learning App 🥽')
 
 st.info("Testing a Machine Learning App build on Streamlit")
 
-df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
-df
+with st.exapnder('Data'):
+  st.write('**Raw Data**')
+  df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
+  df
